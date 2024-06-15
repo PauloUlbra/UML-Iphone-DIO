@@ -18,7 +18,7 @@ Nesta atividade tive o desafio de criar através do padrão UML de diagramação
 ### Diagramação do Iphone
 ```mermaid
 classDiagram
-    interface ReprodutorMusical {
+    class ReprodutorMusical {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
